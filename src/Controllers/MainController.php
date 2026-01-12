@@ -15,8 +15,9 @@ class MainController
         return $view->render($resp, 'home.php', $data);
     }
     function api(Request $req, Response $resp, array $args): Response{
-        $resp->getBody()->write("Sybau API");
-        return $resp;
+        $resp->getBody()->write("Slim API is working !!");
+        return $resp->withHeader('Content-Type', 'application/json')
+                    ->withStatus(200);
     }
     
 }
