@@ -2,6 +2,8 @@
 
 A production-ready Slim Framework 4 template with Docker support, featuring PSR-4 autoloading, PHP-View templating, and a clean MVC structure.
 
+**Official WIKI**: [https://github.com/FauZaPespi/Slim-Template/wiki](https://github.com/FauZaPespi/Slim-Template/wiki)
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
